@@ -1,0 +1,142 @@
+/* General Body Styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styling */
+.nav-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar h1 a {
+    text-decoration: none;
+    color: #cc0000; /* arXiv’s signature red color */
+    font-weight: normal;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Container Styling */
+.container {
+    width: 100%;
+    min-height: calc(100vh - 60px); /* Adjusted for navbar height */
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center;     /* Centers the content vertically */
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+/* Form Box Styling */
+.form-box {
+    width: 100%;
+    max-width: 500px; /* Limits the form width */
+    padding: 30px 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    margin: auto; /* Centers the form horizontally */
+    position: relative;
+}
+
+.form-box:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    color: #444;
+}
+
+.input-group {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    background: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+}
+
+/* Button Styling */
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Additional Options Styling */
+.options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; /* Ensures links are evenly spaced */
+}
+
+.options a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
