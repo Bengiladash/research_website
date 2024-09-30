@@ -1,0 +1,1 @@
+The front-end website for a 'arxiv' esque research website where people can upload their research articles and have that stored alongside login information to an SQL database. Team Members Include : Benjamin Garcia, Cheyenne Ward.
